@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Logica">
+      <UniqueIdentifier>{bea8fda3-9719-4857-89f8-291fdf83bff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Vista">
+      <UniqueIdentifier>{b5a4bd54-8e38-4b85-ad8b-b14847c8253d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Estructuras">
+      <UniqueIdentifier>{c43543c6-a3fe-4563-a06b-bc32219979d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Vista.cpp">
+      <UniqueIdentifier>{7a0c4f7a-ba53-4363-80cf-9a736a75cda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Logica.cpp">
+      <UniqueIdentifier>{416d569d-c0d3-4f66-ac2c-1a96c51f53d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BallSortPuzzle.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Objeto_Grafico.cpp">
+      <Filter>Archivos de origen\Vista.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Utiles.cpp">
+      <Filter>Archivos de origen\Vista.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Archivos.cpp">
+      <Filter>Archivos de origen\Logica.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Bola.cpp">
+      <Filter>Archivos de origen\Logica.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Juego.cpp">
+      <Filter>Archivos de origen\Logica.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Tubo.cpp">
+      <Filter>Archivos de origen\Logica.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Partida.cpp">
+      <Filter>Archivos de origen\Logica.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Nivel.cpp">
+      <Filter>Archivos de origen\Logica.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Movimiento.cpp">
+      <Filter>Archivos de origen\Logica.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Imagenes.cpp">
+      <Filter>Archivos de origen\Vista.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterator.cpp">
+      <Filter>Archivos de origen\Logica.cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="List.h">
+      <Filter>Archivos de encabezado\Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleNode.h">
+      <Filter>Archivos de encabezado\Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleList.h">
+      <Filter>Archivos de encabezado\Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Archivos de encabezado\Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="Bola.h">
+      <Filter>Archivos de encabezado\Logica</Filter>
+    </ClInclude>
+    <ClInclude Include="Juego.h">
+      <Filter>Archivos de encabezado\Logica</Filter>
+    </ClInclude>
+    <ClInclude Include="Movimiento.h">
+      <Filter>Archivos de encabezado\Logica</Filter>
+    </ClInclude>
+    <ClInclude Include="Nivel.h">
+      <Filter>Archivos de encabezado\Logica</Filter>
+    </ClInclude>
+    <ClInclude Include="Tubo.h">
+      <Filter>Archivos de encabezado\Logica</Filter>
+    </ClInclude>
+    <ClInclude Include="Partida.h">
+      <Filter>Archivos de encabezado\Logica</Filter>
+    </ClInclude>
+    <ClInclude Include="Archivos.h">
+      <Filter>Archivos de encabezado\Logica</Filter>
+    </ClInclude>
+    <ClInclude Include="Utiles.h">
+      <Filter>Archivos de encabezado\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="Objeto_Grafico.h">
+      <Filter>Archivos de encabezado\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>Archivos de encabezado\Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="Imagenes.h">
+      <Filter>Archivos de encabezado\Vista</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
